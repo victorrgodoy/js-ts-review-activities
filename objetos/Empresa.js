@@ -1,5 +1,9 @@
 class Empresa {
+    razaoSocial
+    nomeFantasia
     #cnpj
+    endereco
+    
     constructor(razaoSocial, nomeFantasia, cnpj, endereco) {
         this.razaoSocial = razaoSocial
         this.nomeFantasia = nomeFantasia

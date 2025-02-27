@@ -1,4 +1,9 @@
 class Endereco {
+    estado
+    cidade
+    rua
+    numero
+    
     constructor(estado, cidade, rua, numero) {
         this.estado = estado
         this.cidade = cidade
