@@ -30,8 +30,8 @@ export default class Cliente {
         return detalhe.join("\n");
     }
 
-    set definirTelefone(telefone) {
-        this.telefones.add(telefone);
+    addTelefone(telefone) {
+        this.telefones.add(telefone)
     }
 
     nomeMaiusculo() {

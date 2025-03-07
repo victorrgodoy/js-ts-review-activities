@@ -45,11 +45,11 @@ export default class Empresa {
         return detalhe.join("\n");
     }
 
-    set definirTelefone(telefone) {
+    addTelefone(telefone) {
         this.telefones.add(telefone);
     }
 
-    set definirCliente(cliente) {
+    addCliente(cliente) {
         this.clientes.add(cliente);
     }
 
