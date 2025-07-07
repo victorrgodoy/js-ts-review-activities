@@ -9,7 +9,7 @@ js-ts-review/
 │
 ├── javascript/
 │   ├── exercicio/      # Todos os exercícios de JS
-│   └── material/       # Materiais de apoio
+│   └── material/       # Materiais de Javascript
 │
 ├── typescript/
 │   ├── exercicio/      # Todos os exercícios de TS
