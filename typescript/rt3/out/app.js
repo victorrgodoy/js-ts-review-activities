@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const operacoes_1 = require("./operacoes");
+const somar = new operacoes_1.Somador();
+let a = somar.calcular(10, 10);
+const subtrair = new operacoes_1.Subtrador();
+let b = subtrair.calcular(20, 10);
+const divisor = new operacoes_1.Divisor();
+let c = divisor.calcular(20, 10);
+const multiplicador = new operacoes_1.Multiplicador();
+let d = multiplicador.calcular(10, 10);
+console.log(`Soma: ${a}`);
+console.log(`Subtração: ${b}`);
+console.log(`Divisão: ${c}`);
+console.log(`Multiplicação: ${d}`);
